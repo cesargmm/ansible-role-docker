@@ -1,7 +1,7 @@
 ---
 # docker setup
 
-- name: Get a /list of sudo users
+- name: Get a list of sudo users
   ansible.builtin.getent:
     database: group
     key: sudo
