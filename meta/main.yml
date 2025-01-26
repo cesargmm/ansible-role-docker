@@ -1,9 +1,9 @@
 galaxy_info:
   author: cesargmm
-  description: Docker installation in Debian based systems
+  description: Docker installation in Linux systems
 
   namespace: cesargmm
-  role_name: tui
+  role_name: docker
 
   # If the issue tracker for your role is not on github, uncomment the
   # next line and provide a value
