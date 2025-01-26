@@ -5,7 +5,7 @@
 This Ansible role installs and sets up Docker on Linux systems.
 
 > [!NOTE]
-> By installing this rile sudo users will also be added to docker group.
+> By installing this role sudo users will be added to docker group.
 
 ## Requirements
 
