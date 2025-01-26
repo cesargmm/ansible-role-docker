@@ -7,7 +7,7 @@
     dest: /etc/apt/keyrings/docker.asc
     mode: '0644'
 
-- name: Add postgresql repository to source list
+- name: Add docker repository to source list
   ansible.builtin.apt_repository:
     repo: 'deb [arch={{ "amd64" if ansible_architecture == "x86_64" }} signed-by=/etc/apt/keyrings/docker.asc] https://download.docker.com/linux/{{ ansible_distribution | lower }} {{ ansible_distribution_release }} stable'
     update_cache: false
